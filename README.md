@@ -43,7 +43,7 @@ I am always looking to connect with fellow data enthusiasts and professionals. Y
 
 <div class="sidebar">
   <h3>Contact</h3>
-  <p>📧 agriffin@wm.edu</p>
+  <p>📧 lncastrogalind@wm.edu</p>
   <p>🔗 <a href="https://www.linkedin.com/in/leslycastrogalindo/">LinkedIn Profile</a></p>
   
   <h3>Technical Skills</h3>
