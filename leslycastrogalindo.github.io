@@ -1,5 +1,3 @@
-_config.yml
-
 title: Lesly Castro Galindo
 description: Economics | Data Analysis
 theme: minima
@@ -12,25 +10,23 @@ header_pages:
   - resume.md
   - linkedin.md
 
-assets/images/lcg_pic.jpg
-
 minima:
   skin: auto
   social_links:
     - { platform: linkedin, user_url: "https://www.linkedin.com/in/leslycastrogalindo/" }
-
-index.md
-
 
 ---
 layout: home
 title: Home
 ---
 
-# Lesly castro Galindo
+# Lesly Castro Galindo
 
 <p style="text-align:center;">
-  <img src="/assets/images/headshot.jpg" alt="Lesly Castro Galindo" width="220" style="border-radius: 50%;">
+  <img src="{{ '/assets/images/lcg_pic.jpg' | relative_url }}" 
+       alt="Lesly Castro Galindo" 
+       width="220" 
+       style="border-radius: 50%;">
 </p>
 
 ## Economics | Data Analysis
@@ -43,19 +39,17 @@ I am an economics student at William & Mary with interests in international trad
 
 ## What I Do
 
--  Economic research and policy analysis  
--  Professional policy memo writing  
--  International trade studies  
--  Data interpretation and visualization  
+- Economic research and policy analysis  
+- Professional policy memo writing  
+- International trade studies  
+- Data interpretation and visualization  
 
 ---
 
 ## Connect With Me
 
-[View My Resume](/resume/)  
+[View My Resume]({{ '/resume/' | relative_url }})  
 [LinkedIn Profile](https://www.linkedin.com/in/leslycastrogalindo/)
-
-resume.md
 
 ---
 layout: page
@@ -102,8 +96,6 @@ Expected Graduation: 2026
 - Assessed macroeconomic implications
 - Delivered policy recommendations
 
-linkedin.md
-
 ---
 layout: page
 title: LinkedIn
@@ -117,10 +109,6 @@ For real-time updates and professional networking, visit my LinkedIn:
 [Connect with me on LinkedIn](https://www.linkedin.com/in/leslycastrogalindo/)
 
 LinkedIn serves as a living extension of this site, highlighting ongoing projects, research, and professional engagement.
-
-_posts
-
-2026-03-04-building-my-site.md
 
 ---
 layout: post
@@ -140,7 +128,7 @@ I chose Jekyll because it integrates seamlessly with GitHub Pages and allows cle
 
 Using AI as a development partner improved my understanding of static site architecture, deployment workflows, and responsive design.
 
-assets/css
+style.scss
 
 ---
 ---
@@ -188,3 +176,4 @@ a:hover {
 hr {
   margin: 2rem 0;
 }
+
