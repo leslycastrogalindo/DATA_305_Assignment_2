@@ -2,6 +2,9 @@ title: Lesly Castro Galindo
 description: Economics | Data Analysis
 theme: minima
 
+baseurl: "/DATA_305_Assignment_2"
+url: "https://leslycastrogalindo.github.io"
+
 author:
   name: Lesly Castro Galindo
 
@@ -13,7 +16,8 @@ header_pages:
 minima:
   skin: auto
   social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/leslycastrogalindo/" }
+    - platform: linkedin
+      user_url: "https://www.linkedin.com/in/leslycastrogalindo/"
 
 ---
 layout: home
