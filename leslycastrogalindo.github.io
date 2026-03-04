@@ -1,33 +1,21 @@
-your-repo-name/
-│
-├── _config.yml
-├── index.md
-├── resume.md
-├── _posts/
-│   └── 2026-03-04-first-post.md
-└── assets/
-    └── css/
-        └── style.css
-
 _config.yml
 
-title: Lesly Castro
-description: Personal website and portfolio
+title: Lesly Castro Galindo
+description: Economics | Data Analysis
 theme: minima
 
 author:
-  name: Lesly Castro
-  email: lncastrogalind@wm.edu
-## Connect With Me
-
-[LinkedIn Profile](https://www.linkedin.com/in/leslycastrogalindo/)
+  name: Lesly Castro Galindo
 
 header_pages:
   - index.md
-  - linkedin.md
   - resume.md
+  - linkedin.md
 
-show_excerpts: true
+minima:
+  skin: auto
+  social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/leslycastrogalindo/" }
 
 index.md
 
@@ -36,17 +24,29 @@ layout: home
 title: Home
 ---
 
-# Hi, I’m Lesly Castro 
+# Your Name
 
-Welcome to my personal website!
+## Economics | Data Analysis
 
-I’m a student at William & Mary interested in economics, policy, and data analysis. This site serves as my professional portfolio and linkedin.
+Welcome to my professional website.
 
-## About Me
+I am an economics student at William & Mary with interests in international trade, economic policy, and research-driven analysis. My work focuses on applying data to inform public policy decisions.
 
-I’m passionate about international trade, economic policy, and research-driven writing. I enjoy exploring how data informs public policy decisions.
+---
 
-Feel free to explore my resume and blog using the navigation above.
+## What I Do
+
+-  Economic research and policy analysis  
+-  Professional policy memo writing  
+-  International trade studies  
+-  Data interpretation and visualization  
+
+---
+
+## Connect With Me
+
+[View My Resume](/resume/)  
+[LinkedIn Profile](https://www.linkedin.com/in/leslycastrogalindo/)
 
 resume.md
 
@@ -62,39 +62,38 @@ permalink: /resume/
 
 **College of William & Mary**  
 B.A. in Economics  
-Expected Graduation: 2026
+Expected Graduation: 2026  
 
 ---
 
 ## Experience
 
-**Policy Research Assistant**  
-- Conducted research on international trade policy  
-- Analyzed economic data and prepared briefing memos  
+### Policy Research 
+- Conducted economic research on trade agreements
+- Drafted briefing materials and policy memos
+- Analyzed macroeconomic indicators
 
-**Student Organization Leader**  
-- Organized campus events and managed communications  
+### Student Leadership
+- Coordinated academic and professional development events
+- Managed organizational communications
 
 ---
 
 ## Skills
 
 - Data Analysis (Excel, R, Python)
-- Economic Research
 - Policy Writing
+- Economic Modeling
 - Public Speaking
 
 ---
 
 ## Projects
 
-**USMCA Policy Memo**  
-- Wrote a policy memo analyzing North American trade dynamics  
-- Evaluated implications for Senate Finance Committee leadership  
-
-_posts
-
-2026-03-04-first-post.md
+### USMCA Policy Analysis
+- Evaluated North American trade dynamics
+- Assessed macroeconomic implications
+- Delivered policy recommendations
 
 linkedin.md
 
@@ -104,63 +103,67 @@ title: LinkedIn
 permalink: /linkedin/
 ---
 
-# Connect With Me
+# Professional Profile
 
-You can view my full professional profile on LinkedIn:
+For real-time updates and professional networking, visit my LinkedIn:
 
-[View My LinkedIn Profile](https://www.linkedin.com/in/YOUR-USERNAME)
+[Connect with me on LinkedIn](https://www.linkedin.com/in/leslycastrogalindo/)
 
----
+LinkedIn serves as a living extension of this site, highlighting ongoing projects, research, and professional engagement.
 
-## Why LinkedIn?
+_posts
 
-I use LinkedIn to share professional updates, policy research, and academic work.
+2026-03-04-building-my-site.md
 
 ---
 layout: post
-title: "Building My First Jekyll Site"
+title: "Why I Built This Website"
 date: 2026-03-04
 ---
 
-## Why I Chose Jekyll
+## Purpose
 
-For this assignment, I evaluated several static site generators including Jekyll, Hugo, and plain HTML/CSS.
+I created this site to establish a professional online presence that complements my resume and LinkedIn profile.
 
-I ultimately chose Jekyll because:
+## Why Jekyll?
 
-- It integrates directly with GitHub Pages
-- It has strong documentation
-- It requires no custom deployment workflow
+I chose Jekyll because it integrates seamlessly with GitHub Pages and allows clean, structured content using Markdown.
 
-## What I Learned
+## Reflection
 
-Using AI as a development partner made it easier to:
-- Understand project structure
-- Debug configuration issues
-- Iterate on layout design
+Using AI as a development partner improved my understanding of static site architecture, deployment workflows, and responsive design.
 
-This project helped me better understand how static sites are built and deployed.
+assets/css
 
-assets/css/style.css
+style.scss
+
+---
+---
+
+@import "minima";
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
-h1, h2, h3 {
-  margin-top: 1.5rem;
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-weight: 600;
 }
 
 .site-header {
   border-bottom: 1px solid #eaeaea;
 }
 
-minima:
-  skin: auto
-
-
-
+a {
+  font-weight: 500;
+}
 
 
 
