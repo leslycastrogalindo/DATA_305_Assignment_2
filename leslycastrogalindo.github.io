@@ -1,120 +1,143 @@
-title: "Lesly Castro Galindo | Bachelor of Arts in Economics, Minor in Data Science"
-description: "Economics and Data Science Student at William & Mary"
+your-repo-name/
+│
+├── _config.yml
+├── index.md
+├── resume.md
+├── _posts/
+│   └── 2026-03-04-first-post.md
+└── assets/
+    └── css/
+        └── style.css
+
+_config.yml
+
+title: Lesly Castro
+description: Personal website and portfolio
 theme: minima
 
-# Navigation links (Home is automatic)
+author:
+  name: Lesly Castro
+  email: your-email@example.com
+
 header_pages:
+  - index.md
   - resume.md
-  - blog.md
 
-# External Links
-linkedin_url: "https://www.linkedin.com/in/leslycastrogalindo/"
+show_excerpts: true
 
-# Build settings
-remote_theme: jekyll/minima
+index.md
 
 ---
 layout: home
-title: Welcome
+title: Home
 ---
 
-# Hi, I'm Lesly! 
+# Hi, I’m Lesly Castro 👋
 
-I am an Economics and Data Science student at **William & Mary** and graduating May 2026. I am an aspiring business analyst interested in economic policy. I also love to play soccer, pickleball, and beign active! throught my time at William & Mary, I have been involved in the Club Soccer team, a IM referee, and in Kappa Delta. 
+Welcome to my personal website!
 
-### Let's Connect
-I'm passionate about turning complex datasets into clear stories. You can see my professional background here:
+I’m a student at William & Mary interested in economics, policy, and data analysis. This site serves as my professional portfolio and blog.
 
-[**Connect on LinkedIn**](https://www.linkedin.com/in/leslycastrogalindo/){: .btn }
+## About Me
 
----
+I’m passionate about international trade, economic policy, and research-driven writing. I enjoy exploring how data informs public policy decisions.
 
-### Quick Links
-* 📄 [View my Resume](/resume)
-* ✍️ [Read my Blog](/blog)
+Feel free to explore my resume and blog using the navigation above.
+
+resume.md
 
 ---
 layout: page
 title: Resume
+permalink: /resume/
 ---
 
-<style>
-  .resume-grid {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: 1fr;
-  }
-  @media (min-width: 768px) {
-    .resume-grid { grid-template-columns: 1fr 2.5fr; }
-  }
-  .sidebar {
-    background: #f8f9fa;
-    padding: 1.5rem;
-    border-radius: 8px;
-    border-top: 4px solid #004481;
-  }
-  .download-btn {
-    display: block;
-    text-align: center;
-    background: #004481;
-    color: white !important;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    text-decoration: none;
-  }
-</style>
+# Resume
 
-<div class="resume-grid">
-  <div class="sidebar">
-    <a href="/assets/resume.pdf" class="download-btn">📥 Download PDF</a>
-    <h3>Skills</h3>
-    <ul>
-      <li>Python (Pandas, Scikit-learn)</li>
-      <li>SQL</li>
-      <li>Jekyll & CSS Grid</li>
-    </ul>
-  </div>
+## Education
 
-  <div class="main-content">
-    <h3>🎓 Education</h3>
-    <p><strong>William & Mary</strong><br>B.A. Economics | 2022 - 2026</p>
-
-    <h3>💼 Experience</h3>
-    <p><strong>DATA 305 Student</strong><br>Learning to deploy automated web architectures and manage data-driven static sites.</p>
-
-    <h3>🚀 Projects</h3>
-    <p><strong>Personal Portfolio Site</strong><br>Built with Jekyll to demonstrate technical literacy in Git and web design.</p>
-  </div>
-</div>
+**College of William & Mary**  
+B.A. in Economics  
+Expected Graduation: 2026
 
 ---
-layout: page
-title: Blog
+
+## Experience
+
+**Policy Research Assistant**  
+- Conducted research on international trade policy  
+- Analyzed economic data and prepared briefing memos  
+
+**Student Organization Leader**  
+- Organized campus events and managed communications  
+
 ---
 
-## Technical Reflections
+## Skills
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date_to_string }}
-    </li>
-  {% endfor %}
-</ul>
+- Data Analysis (Excel, R, Python)
+- Economic Research
+- Policy Writing
+- Public Speaking
+
+---
+
+## Projects
+
+**USMCA Policy Memo**  
+- Wrote a policy memo analyzing North American trade dynamics  
+- Evaluated implications for Senate Finance Committee leadership  
+
+_posts
+
+2026-03-04-first-post.md
 
 ---
 layout: post
-title: "Deploying a Data Science Portfolio"
-date: 2026-03-03
+title: "Building My First Jekyll Site"
+date: 2026-03-04
 ---
 
-For my **DATA 305** project at William & Mary, I chose to build my site using **Jekyll**. 
+## Why I Chose Jekyll
 
-While modern tools like Quarto are great for Jupyter Notebooks, Jekyll is the "native" language of GitHub Pages. This allowed me to create a professional, responsive site without needing complex external hosting.
+For this assignment, I evaluated several static site generators including Jekyll, Hugo, and plain HTML/CSS.
 
-In this project, I learned:
-1.  **CSS Grid:** How to make a resume that works on phones and laptops.
-2.  **Liquid Templating:** How to automate my blog archive.
-3.  **Git Workflow:** Deploying code directly to my `yourusername.github.io` domain.
+I ultimately chose Jekyll because:
+
+- It integrates directly with GitHub Pages
+- It has strong documentation
+- It requires no custom deployment workflow
+
+## What I Learned
+
+Using AI as a development partner made it easier to:
+- Understand project structure
+- Debug configuration issues
+- Iterate on layout design
+
+This project helped me better understand how static sites are built and deployed.
+
+assets/css/style.css
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin-top: 1.5rem;
+}
+
+.site-header {
+  border-bottom: 1px solid #eaeaea;
+}
+
+minima:
+  skin: auto
+
+
+
+
+
+
 
