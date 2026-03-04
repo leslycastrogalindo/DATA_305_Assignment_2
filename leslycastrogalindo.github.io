@@ -1,183 +1,177 @@
-title: Lesly Castro Galindo
-description: Economics | Data Analysis
-theme: minima
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesly Castro Galindo | Economics & Data Analysis</title>
 
-baseurl: "/DATA_305_Assignment_2"
-url: "https://leslycastrogalindo.github.io"
-
-author:
-  name: Lesly Castro Galindo
-
-header_pages:
-  - index.md
-  - resume.md
-  - linkedin.md
-
-minima:
-  skin: auto
-  social_links:
-    - platform: linkedin
-      user_url: "https://www.linkedin.com/in/leslycastrogalindo/"
-
----
-layout: home
-title: Home
----
-
-# Lesly Castro Galindo
-
-<p style="text-align:center;">
-  <img src="{{ '/assets/images/lcg_pic.jpg' | relative_url }}" 
-       alt="Lesly Castro Galindo" 
-       width="220" 
-       style="border-radius: 50%;">
-</p>
-
-## Economics | Data Analysis
-
-Welcome to my professional website.
-
-I am an economics student at William & Mary with interests in international trade, economic policy, and research-driven analysis. My work focuses on applying data to inform public policy decisions.
-
----
-
-## What I Do
-
-- Economic research and policy analysis  
-- Professional policy memo writing  
-- International trade studies  
-- Data interpretation and visualization  
-
----
-
-## Connect With Me
-
-[View My Resume]({{ '/resume/' | relative_url }})  
-[LinkedIn Profile](https://www.linkedin.com/in/leslycastrogalindo/)
-
----
-layout: page
-title: Resume
-permalink: /resume/
----
-
-# Resume
-
-## Education
-
-**College of William & Mary**  
-B.A. in Economics  
-Expected Graduation: 2026  
-
----
-
-## Experience
-
-### Policy Research 
-- Conducted economic research on trade agreements
-- Drafted briefing materials and policy memos
-- Analyzed macroeconomic indicators
-
-### Student Leadership
-- Coordinated academic and professional development events
-- Managed organizational communications
-
----
-
-## Skills
-
-- Data Analysis (Excel, R, Python)
-- Policy Writing
-- Economic Modeling
-- Public Speaking
-
----
-
-## Projects
-
-### USMCA Policy Analysis
-- Evaluated North American trade dynamics
-- Assessed macroeconomic implications
-- Delivered policy recommendations
-
----
-layout: page
-title: LinkedIn
-permalink: /linkedin/
----
-
-# Professional Profile
-
-For real-time updates and professional networking, visit my LinkedIn:
-
-[Connect with me on LinkedIn](https://www.linkedin.com/in/leslycastrogalindo/)
-
-LinkedIn serves as a living extension of this site, highlighting ongoing projects, research, and professional engagement.
-
----
-layout: post
-title: "Why I Built This Website"
-date: 2026-03-04
----
-
-## Purpose
-
-I created this site to establish a professional online presence that complements my resume and LinkedIn profile.
-
-## Why Jekyll?
-
-I chose Jekyll because it integrates seamlessly with GitHub Pages and allows clean, structured content using Markdown.
-
-## Reflection
-
-Using AI as a development partner improved my understanding of static site architecture, deployment workflows, and responsive design.
-
-style.scss
-
----
----
-
-@import "minima";
-
-/* Typography */
+<style>
+/* ===== GENERAL STYLING ===== */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 18px;
-  line-height: 1.75;
-  color: #222;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background-color: #f9f9f9;
 }
 
-/* Headings */
-h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+/* ===== NAVIGATION ===== */
+nav {
+    background-color: #ffffff;
+    padding: 15px 40px;
+    border-bottom: 1px solid #eaeaea;
+    position: sticky;
+    top: 0;
 }
 
-h2 {
-  margin-top: 2.2rem;
-  font-weight: 600;
-  color: #1a1a1a;
+nav a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #003366;
+    font-weight: 600;
 }
 
-/* Navigation Bar */
-.site-header {
-  border-bottom: 1px solid #eaeaea;
-  background-color: #ffffff;
+nav a:hover {
+    text-decoration: underline;
 }
 
-/* Links */
-a {
-  font-weight: 500;
-  color: #003366;
-  text-decoration: none;
+/* ===== HERO SECTION ===== */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: white;
 }
 
-a:hover {
-  text-decoration: underline;
+.hero img {
+    width: 220px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
-/* Subtle Section Separation */
-hr {
-  margin: 2rem 0;
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
 }
+
+.hero h2 {
+    font-weight: 400;
+    color: #555;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section h2 {
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* ===== LISTS ===== */
+ul {
+    padding-left: 20px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-top: 1px solid #eaeaea;
+    font-size: 0.9rem;
+    color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#resume">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ===== HOME ===== -->
+<section id="home" class="hero">
+    <img src="lcg_pic.JPG" alt="Lesly Castro Galindo">
+    <h1>Lesly Castro Galindo</h1>
+    <h2>Economics | Data Analysis</h2>
+    <p>
+        I am an economics student at William & Mary with interests in international trade,
+        economic policy, and research-driven analysis. My work focuses on applying data
+        to inform public policy decisions.
+    </p>
+</section>
+
+<!-- ===== RESUME ===== -->
+<section id="resume" class="section">
+    <h2>Resume</h2>
+
+    <h3>Education</h3>
+    <p>
+        <strong>College of William & Mary</strong><br>
+        B.A. in Economics<br>
+        Expected Graduation: 2026
+    </p>
+
+    <h3>Experience</h3>
+    <ul>
+        <li>Conducted economic research on trade agreements</li>
+        <li>Drafted briefing materials and policy memos</li>
+        <li>Analyzed macroeconomic indicators</li>
+    </ul>
+
+    <h3>Skills</h3>
+    <ul>
+        <li>Data Analysis (Excel, R, Python)</li>
+        <li>Policy Writing</li>
+        <li>Economic Modeling</li>
+        <li>Public Speaking</li>
+    </ul>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <h3>USMCA Policy Analysis</h3>
+    <ul>
+        <li>Evaluated North American trade dynamics</li>
+        <li>Assessed macroeconomic implications</li>
+        <li>Delivered policy recommendations</li>
+    </ul>
+
+    <h3>Professional Website Development</h3>
+    <p>
+        Built a structured portfolio website using HTML and GitHub Pages
+        to showcase academic and policy work.
+    </p>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="section">
+    <h2>Contact</h2>
+
+    <p>
+        <strong>Email:</strong> lncastrogalind@wm.edu<br>
+        <strong>LinkedIn:</strong> 
+        <a href="https://www.linkedin.com/in/leslycastrogalindo/" target="_blank">
+            linkedin.com/in/leslycastrogalindo
+        </a>
+    </p>
+</section>
+
+<footer>
+    © 2026 Lesly Castro Galindo | Professional Portfolio
+</footer>
+
+</body>
+</html>
 
