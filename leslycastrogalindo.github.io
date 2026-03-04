@@ -12,6 +12,8 @@ header_pages:
   - resume.md
   - linkedin.md
 
+assets/images/lcg_pic.jpg
+
 minima:
   skin: auto
   social_links:
@@ -19,12 +21,17 @@ minima:
 
 index.md
 
+
 ---
 layout: home
 title: Home
 ---
 
 # Lesly castro Galindo
+
+<p style="text-align:center;">
+  <img src="/assets/images/headshot.jpg" alt="Lesly Castro Galindo" width="220" style="border-radius: 50%;">
+</p>
 
 ## Economics | Data Analysis
 
