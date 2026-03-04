@@ -17,10 +17,14 @@ theme: minima
 
 author:
   name: Lesly Castro
-  email: your-email@example.com
+  email: lncastrogalind@wm.edu
+## Connect With Me
+
+[LinkedIn Profile](https://www.linkedin.com/in/leslycastrogalindo/)
 
 header_pages:
   - index.md
+  - linkedin.md
   - resume.md
 
 show_excerpts: true
@@ -32,11 +36,11 @@ layout: home
 title: Home
 ---
 
-# Hi, I’m Lesly Castro 👋
+# Hi, I’m Lesly Castro 
 
 Welcome to my personal website!
 
-I’m a student at William & Mary interested in economics, policy, and data analysis. This site serves as my professional portfolio and blog.
+I’m a student at William & Mary interested in economics, policy, and data analysis. This site serves as my professional portfolio and linkedin.
 
 ## About Me
 
@@ -91,6 +95,26 @@ Expected Graduation: 2026
 _posts
 
 2026-03-04-first-post.md
+
+linkedin.md
+
+---
+layout: page
+title: LinkedIn
+permalink: /linkedin/
+---
+
+# Connect With Me
+
+You can view my full professional profile on LinkedIn:
+
+[View My LinkedIn Profile](https://www.linkedin.com/in/YOUR-USERNAME)
+
+---
+
+## Why LinkedIn?
+
+I use LinkedIn to share professional updates, policy research, and academic work.
 
 ---
 layout: post
