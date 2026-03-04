@@ -24,7 +24,7 @@ layout: home
 title: Home
 ---
 
-# Your Name
+# Lesly castro Galindo
 
 ## Economics | Data Analysis
 
@@ -135,36 +135,49 @@ Using AI as a development partner improved my understanding of static site archi
 
 assets/css
 
-style.scss
-
 ---
 ---
 
 @import "minima";
 
+/* Typography */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 1.75;
+  color: #222;
 }
 
+/* Headings */
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 
 h2 {
-  margin-top: 2rem;
+  margin-top: 2.2rem;
   font-weight: 600;
+  color: #1a1a1a;
 }
 
+/* Navigation Bar */
 .site-header {
   border-bottom: 1px solid #eaeaea;
+  background-color: #ffffff;
 }
 
+/* Links */
 a {
   font-weight: 500;
+  color: #003366;
+  text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
 
-
-
+/* Subtle Section Separation */
+hr {
+  margin: 2rem 0;
+}
